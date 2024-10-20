@@ -1,0 +1,35 @@
+.sidebar-profile {
+    width: 25%;
+    background-color: #e0d4fa;
+    padding: 10px;
+    border: 2px solid #b8a8e7;
+    border-radius: 10px;
+    height: 400px;
+  }
+  
+  .sidebar-profile ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-profile ul li {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar-profile ul li button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #d0c1f0;
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-profile ul li button:hover {
+    background-color: #b8a8e7;
+  }
